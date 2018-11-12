@@ -5,6 +5,7 @@ ruby '2.5.0'
 
 gem 'devise'
 gem 'mongoid'
+gem 'locomotivecms', github: 'locomotivecms/engine', branch: 'master'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
