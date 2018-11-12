@@ -5,7 +5,11 @@ ruby '2.5.1'
 
 gem 'devise'
 gem 'mongoid'
-gem 'locomotivecms', github: 'locomotivecms/engine', branch: 'master'
+
+gem 'locomotivecms', github: 'locomotivecms/engine', ref: '0fd2e67'
+gem 'locomotivecms_steam', github: 'locomotivecms/steam', ref: '237c5d5'
+gem 'custom_fields', github: 'locomotivecms/custom_fields', ref: '123e4fe'
+gem 'locomotivecms_common', github: 'locomotivecms/common', ref: '4d1bd56'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
